@@ -17,7 +17,8 @@ dotenv.config();
 
 
 const corsOptions = {
-    origin: process.env.Frontend_PORT,
+    origin: '*',
+    // origin: process.env.Frontend_PORT,
 
     credentials: true
 }
