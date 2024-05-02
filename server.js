@@ -17,8 +17,7 @@ dotenv.config();
 
 
 const corsOptions = {
-    origin: '*',
-    // origin: process.env.Frontend_PORT,
+    origin: ["*", 'https://swiptory01.netlify.app'],
 
     credentials: true
 }
